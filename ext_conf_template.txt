@@ -1,0 +1,23 @@
+# cat=basic; type=string; label= The Slack incoming webhook URL:
+webHookUrl =
+
+# cat=basic; type=string; label=The default channel that messages will be sent to:
+channel = general
+
+# cat=basic; type=string; label=The default username for your bot
+username = t3slack
+
+# cat=basic; type=string; label=The default icon that messages will be sent with, either :emoji: or a URL to an image
+icon = :sunglasses:
+
+# cat=basic; type=boolean; label= Whether names like @regan or #accounting should be linked in the message
+link_names = 0
+
+# cat=basic; type=boolean; label= Whether Slack should unfurl text-based URLs (defaults to false)
+unfurl_links = 0
+
+# cat=basic; type=boolean; label= Whether Slack should unfurl media-based URLs, like tweets or Youtube videos (defaults to true)
+unfurl_media = 1
+
+# cat=basic; type=boolean; label= Whether markdown should be parsed in messages, or left as plain text (defaults to true)
+allow_markdown = 1
