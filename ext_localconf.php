@@ -6,7 +6,7 @@ if (!class_exists('Maknz\\Slack\\Client') || !class_exists('Maknz\\Slack\Attachm
 }
 
 
-//test
+//test Slack -  Hello World
 if (TYPO3_MODE === 'BE') {
     $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['extbase']['commandControllers'][$_EXTKEY] =
         \SvenJuergens\T3Slack\Command\TestCommandController::class;

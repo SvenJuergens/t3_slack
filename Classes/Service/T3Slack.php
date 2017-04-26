@@ -18,13 +18,6 @@ use \Maknz\Slack\Client;
 
 class T3Slack extends Client{
 
-    /**
-     * client
-     *
-     * @var \Maknz\Slack\Client $client;
-     */
-    protected $client;
-
     /** @var  EmConfiguration */
     protected $emConfiguration;
 
@@ -66,5 +59,4 @@ class T3Slack extends Client{
         }
         return $settings;
     }
-
 }

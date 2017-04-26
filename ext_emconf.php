@@ -16,7 +16,7 @@ $EM_CONF[$_EXTKEY] = [
     'category' => 'plugin',
     'author' => 'Sven Jürgens',
     'author_email' => 't3@blue-side.de',
-    'state' => 'alpha',
+    'state' => 'stable',
     'internal' => '',
     'uploadfolder' => '0',
     'createDirs' => '',
@@ -24,7 +24,7 @@ $EM_CONF[$_EXTKEY] = [
     'version' => '1.0.0',
     'constraints' => [
         'depends' => [
-            'typo3' => '7.6.0-7.6.99',
+            'typo3' => '7.6.0-8.7.99',
         ],
         'conflicts' => [],
         'suggests' => [],
